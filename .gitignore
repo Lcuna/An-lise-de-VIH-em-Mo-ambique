@@ -1,0 +1,7 @@
+dados/
+resultados/registos/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoint/
+.ipynb_checkpoints/

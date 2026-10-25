@@ -1,0 +1,25 @@
+﻿tipo,parametro,verdadeiro,estimado,ic_inf,ic_sup,dentro_do_ic
+Província,Niassa,1.222,1.234,1.2,1.27,True
+Província,Cabo Delgado,1.333,1.343,1.309,1.377,True
+Província,Zambézia,2.111,2.095,2.056,2.135,True
+Província,Tete,1.556,1.578,1.542,1.615,True
+Província,Manica,2.444,2.406,2.353,2.461,True
+Província,Sofala,2.556,2.525,2.472,2.579,True
+Província,Inhambane,2.333,2.313,2.257,2.37,True
+Província,Gaza,4.0,3.937,3.854,4.021,True
+Província,Maputo Província,3.778,3.734,3.661,3.809,True
+Província,Maputo Cidade,3.111,3.128,3.056,3.202,True
+Ano,2020,0.742,0.74,0.727,0.754,True
+Ano,2021,0.832,0.837,0.823,0.852,True
+Ano,2022,0.861,0.846,0.832,0.861,True
+Ano,2023,0.819,0.802,0.788,0.816,False
+Ano,2024,0.779,0.778,0.765,0.791,True
+Ano,2025,0.741,0.743,0.73,0.756,True
+Sexo (F/M) por idade,15-19,4.0,4.144,3.989,4.305,True
+Sexo (F/M) por idade,20-24,2.857,2.885,2.815,2.957,True
+Sexo (F/M) por idade,25-29,1.818,1.851,1.81,1.893,True
+Sexo (F/M) por idade,30-34,1.333,1.369,1.337,1.402,False
+Sexo (F/M) por idade,35-39,1.111,1.105,1.075,1.135,True
+Sexo (F/M) por idade,40-44,1.0,0.993,0.96,1.026,True
+Sexo (F/M) por idade,45-49,1.0,1.005,0.963,1.05,True
+Sexo (F/M) por idade,50+,0.952,0.961,0.926,0.998,True

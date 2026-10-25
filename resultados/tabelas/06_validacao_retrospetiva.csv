@@ -1,0 +1,3 @@
+﻿ano,populacao,casos_previstos,ip95_inf,ip80_inf,mediana,ip80_sup,ip95_sup,taxa_prevista,taxa_ip95_inf,taxa_ip95_sup,observado,erro_pct,observado_dentro_ip95
+2024,33064201,27556.2,26171.8,26648.8,27546.0,28486.1,29043.0,83.3,79.2,87.8,28055,-1.8,True
+2025,33990001,26821.5,25469.0,25913.7,26822.5,27766.2,28268.0,78.9,74.9,83.2,27286,-1.7,True

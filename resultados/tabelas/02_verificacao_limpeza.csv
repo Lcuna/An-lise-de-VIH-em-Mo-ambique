@@ -1,0 +1,19 @@
+﻿tabela,problema,introduzidos,detetados,diferenca,nota
+casos_vih,provincia_grafia_inconsistente,16333,13788,-2545,variante sorteada igual ao nome oficial
+casos_vih,sexo_codificacao_variada,20350,15017,-5333,código sorteado já era 'M'/'F' ou ficou em falta
+casos_vih,sexo_em_falta,4105,4105,0,
+casos_vih,idade_em_falta,4043,4029,-14,algumas idades em falta receberam valor impossível
+casos_vih,idade_impossivel,645,645,0,
+casos_vih,data_diagnostico_formato_dd_mm_aaaa,41160,40737,-423,algumas datas foram depois apagadas
+casos_vih,data_diagnostico_em_falta,2003,2003,0,
+casos_vih,notificacao_antes_do_diagnostico,2064,2048,-16,datas de diagnóstico em falta não são comparáveis
+casos_vih,tarv_antes_do_diagnostico,583,576,-7,idem
+casos_vih,homem_registado_como_gestante,385,380,-5,alguns destes homens ficaram com sexo em falta
+casos_vih,cd4_impossivel,416,416,0,
+casos_vih,duplicados_exatos,3075,3075,0,
+casos_vih,renotificacoes_mesmo_id,1025,1025,0,
+ptv_mensal,relatorios_mensais_em_falta,30,30,0,
+ptv_mensal,provincia_grafia_inconsistente,47,42,-5,variante sorteada igual ao nome oficial
+ptv_mensal,testadas_maior_que_cpn,11,11,0,
+ptv_mensal,valores_em_falta,10,10,0,
+ptv_mensal,linhas_duplicadas,6,6,0,

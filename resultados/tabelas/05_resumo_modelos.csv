@@ -1,0 +1,5 @@
+﻿modelo,n,aic,dispersao,teste_interacao_p,pseudo_r2
+A: Poisson (efeitos principais),1232,17495.8797,7.6316,,
+B: Poisson + sexo × idade,1232,9322.4903,,0.0,
+Final: Poisson,1232,9322.4903,1.0511,,
+Logística — doença avançada,110440,106952.7393,,,0.0261

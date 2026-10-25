@@ -1,0 +1,26 @@
+﻿tabela,codigo,problema,n_registos,acao,%
+casos_vih,duplicados_exatos,Linhas exatamente repetidas,3075,removidas,1.47
+casos_vih,renotificacoes_mesmo_id,Re-notificações (ID repetido),1025,mantida a primeira notificação,0.49
+casos_vih,provincia_grafia_inconsistente,Província com grafia diferente da oficial,13788,corrigida para o nome oficial,6.59
+casos_vih,provincia_desconhecida,Província não reconhecida,0,em falta,0.0
+casos_vih,sexo_codificacao_variada,Sexo codificado de forma não padronizada,15017,recodificado para M/F,7.18
+casos_vih,sexo_em_falta,Sexo em falta ou desconhecido,4105,em falta (ver imputação abaixo),1.96
+casos_vih,sexo_imputado,"Sexo em falta, mas gestante/CPN/maternidade",594,imputado como F (assinalado),0.28
+casos_vih,idade_em_falta,Idade em falta,4029,em falta,1.93
+casos_vih,idade_impossivel,Idade impossível (<0 ou >100),645,passa a em falta,0.31
+casos_vih,data_diagnostico_formato_dd_mm_aaaa,Data de diagnóstico em DD/MM/AAAA,40737,convertida para data,19.48
+casos_vih,data_diagnostico_em_falta,Data de diagnóstico em falta,2003,imputada = data mais antiga entre notificação e início de TARV,0.96
+casos_vih,notificacao_antes_do_diagnostico,Notificação antes do diagnóstico,2048,data de notificação passa a em falta,0.98
+casos_vih,tarv_antes_do_diagnostico,Início de TARV antes do diagnóstico,576,data de TARV passa a em falta (iniciou_tarv mantém-se),0.28
+casos_vih,homem_registado_como_gestante,Homem registado como gestante,380,corrigido para 'Não aplicável',0.18
+casos_vih,cd4_impossivel,CD4 fora do intervalo 0–5000,416,passa a em falta,0.2
+casos_vih,fora_do_periodo,Diagnóstico fora de 2019–2025 ou sem data,5,excluído,0.0
+ptv_mensal,linhas_duplicadas,Linhas exatamente repetidas,6,removidas,0.67
+ptv_mensal,provincia_grafia_inconsistente,Província com grafia diferente da oficial,42,corrigida para o nome oficial,4.67
+ptv_mensal,valores_em_falta,Células de indicadores em falta,10,mantidas em falta,1.11
+ptv_mensal,relatorio_repetido,Relatório repetido com valores diferentes,0,mantido o primeiro,0.0
+ptv_mensal,testadas_maior_que_cpn,Incoerência na cascata (numerador > denominador),11,numerador passa a em falta,1.22
+ptv_mensal,relatorios_mensais_em_falta,Relatórios mensais não recebidos,30,linha criada vazia (não imputado),3.33
+populacao,pop_duplicada,Estratos duplicados,0,verificar,0.0
+populacao,pop_invalida,População em falta ou ≤ 0,0,verificar,0.0
+populacao,pop_estratos_em_falta,Estratos em falta,0,verificar,0.0
